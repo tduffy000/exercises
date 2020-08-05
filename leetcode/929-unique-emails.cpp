@@ -16,7 +16,6 @@ private:
         if (plusIdx != std::string::npos) {
             localName = localName.substr(0,plusIdx);
         }
-        cout << localName+domain << "\n";
         return localName+domain;
     }
     
